@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Lato", sans-serif;
+}
+
+.navbar-custom {
+  background-color: rgb(0, 0, 0);
+}
+.navbar-custom .nav-link {
+  color: white;
+  text-indent: 2em;
+}
+.navbar-custom .nav-link:hover {
+  color: lightgreen;
+}
+
+.navbar-custom .toggler-custom {
+  background-color: #fff;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.contenedor {
+  background-color: #1d75de;
+}
+.titulo {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  width: auto;
+  padding: 35px 15px 0 15px;
+}
+.subtitulo {
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  width: 100%;
+  padding: 35px 15px 0 15px;
+}
+.headpie {
+  font-size: 12px;
+  text-decoration: underline;
+  text-align: left;
+  color: white;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+.empezar {
+  display: inline-block;
+  /*position: relative;*/
+  background-color: #000;
+  border: #000;
+  color: white;
+  border-radius: 500px;
+  padding-block: 14px;
+  padding-inline: 32px;
+  margin-right: 10px;
+}
+.empezar:hover {
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+.ver {
+  display: inline-block;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  border-radius: 500px;
+  padding-block: 14px;
+  padding-inline: 32px;
+}
+.ver:hover {
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.titulo2 {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+  color: black;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  width: 100%;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 25px;
+}
+
+.card-img {
+  width: 100px;
+}
+
+/***************************/
+
+.card-plan {
+  background-color: #efefef;
+  padding: 50px;
+  text-align: center;
+  display: block;
+}
+
+.card1 {
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  display: inline-block;
+  flex-wrap: nowrap;
+  width: 400px;
+  height: 440px;
+  margin-bottom: 20px;
+}
+
+.card-plan-titulo {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.alertcard {
+  background-color: #1d75de;
+  color: white;
+  border-radius: 5px;
+  border: black;
+  width: 210px;
+}
+.plannombre {
+  font-weight: 900;
+  color: black;
+  font-size: 25px;
+  text-align: left;
+}
+.precio {
+  font-weight: 400;
+  color: black;
+  font-size: 15px;
+  text-align: left;
+}
+.qcuentas {
+  font-weight: 400;
+  color: black;
+  font-size: 15px;
+  text-align: left;
+}
+.border-plan {
+  border: 1px solid #232323;
+}
+.planoptions {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.planescard {
+  height: 450px;
+  -webkit-box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.59);
+  box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.59);
+}
+
+.check {
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: -30px;
+}
+.listaplan {
+  text-align: left;
+  list-style-type: none;
+}
+.btn-plan {
+  width: 100%;
+  /*position: relative;*/
+  background-color: #000;
+  border: #000;
+  color: white;
+  border-radius: 500px;
+  padding-block: 14px;
+  padding-inline: 32px;
+  margin-right: 10px;
+}
+.btn-plan:hover {
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+.pieplan {
+  font-size: 12px;
+  text-decoration: underline;
+  text-align: left;
+  color: rgb(85, 83, 83);
+  padding: 20px 0 0 0;
+}
+footer {
+  background-color: black;
+  padding-top: 50px;
+}
+.menufooter {
+  display: inline-flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-start;
+}
+
+.navfooter {
+  color: white;
+  margin: 0 20px 0 20px;
+}
+.navfooter li {
+  text-align: left;
+  list-style-type: none;
+}
+
+.piefooter {
+  display: flex;
+}
+.piefooter li {
+  display: inline-block;
+  color: white;
+  padding-right: 50px;
+}
+.copy {
+  color: white;
+  align-content: center;
+}
+.pais {
+  margin: 20px;
+  text-align: right;
+}
